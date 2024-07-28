@@ -30,17 +30,17 @@
 
     <div>
       <label for="email">EMAIL</label><br>
-      <input type="email" id="email" placeholder="something@yahoo.com" required>  
+      <input type="email" id="email" placeholder="something@yahoo.com" required multiple>  
     </div>
 
     <div>
-      <label for="number">Age</label><br>
-      <input type="number" id="number" placeholder="your age in number" min="1" max="99">  
+      <label for="number">Number</label><br>
+      <input type="text" id="number" placeholder="your phone number" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits">  
     </div>
 
     <div>
       <label for="password">PASSWORD</label><br>
-      <input type="password" id="password" required> 
+      <input type="password" id="password" minlength="8" required> 
     </div>
     <div>
       <label for="C-password">CONFIRM PASSWORD</label><br>
