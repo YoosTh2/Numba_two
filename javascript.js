@@ -9,7 +9,7 @@ function logInput() {
     console.log("Email : " ,email);
 
     const number = document.getElementById('number').value;
-    console.log("Age : " ,number);
+    console.log("Number : " ,number);
 
     let password = document.getElementById("password")
   , confirm_password = document.getElementById("C-password");
